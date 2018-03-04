@@ -11,5 +11,5 @@ return array
 
 function whileLoop (n){
   while (n > 100);
-  return console.log("done");
+  return "done";
 };
