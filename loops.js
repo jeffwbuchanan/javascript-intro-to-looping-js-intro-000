@@ -10,7 +10,6 @@ return array
 }
 
 function whileLoop (n){
-  n = Math.floor(Math.random() * 100)
-  while (n < 100);
-  return "done";
+  while (n > 100);
+  return console.log("done");
 };
